@@ -626,7 +626,7 @@ body.page .main-navigation {
 }
 
 .site-header.featured-image .site-branding .site-description {
-  font-size: 5vw;
+  font-size: 10vw;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
 }
@@ -643,9 +643,9 @@ body.page .main-navigation {
           flex-direction: column;
   min-width: 78vw;
   min-height: 50vh;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .site-header.featured-image .site-featured-image .entry-header {
@@ -789,6 +789,22 @@ body.page .main-navigation {
 
 .site-header {
   background-color: #6bbdbd;
+}
+
+#liste-cours {
+  color: blue;
+}
+
+#masthead {
+  background-color: black;
+}
+
+.attachment-thumbnail .size-thumbnail {
+  border: 2px solid black;
+}
+
+.wp-block-column {
+  border: 2px solid black;
 }
 
 @-webkit-keyframes anim1 {

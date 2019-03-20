@@ -22,7 +22,7 @@
     }
  .site-branding .site-description
  {
-       font-size: 5vw;
+       font-size: 10vw;
        transform : translateX(-100%);
  }
 
@@ -34,7 +34,7 @@
         flex-direction: column;
         min-width: 78vw;
         min-height: 50vh;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     .site-featured-image .entry-header {
