@@ -787,6 +787,10 @@ body.page .main-navigation {
   background-color: #86e0e0;
 }
 
+.site-header {
+  background-color: #6bbdbd;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
