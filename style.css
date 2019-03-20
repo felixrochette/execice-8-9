@@ -807,6 +807,10 @@ body.page .main-navigation {
   border: 2px solid black;
 }
 
+img.attachment-thumbnail.size-thumbnail {
+  border: 5px solid #1a00aa;
+}
+
 @-webkit-keyframes anim1 {
   from {
     -webkit-transform: translateY(-100vh) rotateX(0deg);
