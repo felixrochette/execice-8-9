@@ -35,6 +35,28 @@
 			)
 		);
 
+		// On vérifie si le champ existe 
+		 if( get_field('prof') ):?>
+
+		<p><?php the_field('prof'); ?></p>
+<?php
+		endif;
+
+		if( get_field('duree') ):?>
+
+		<p><?php the_field('duree'); ?></p>
+<?php
+		endif;
+		
+	
+		$image = get_field('projet');
+		$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+		if( $image ) {
+			echo wp_get_attachment_image( $image, $size );
+		}
+
+		
+
 		wp_link_pages(
 			array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'twentynineteen' ),

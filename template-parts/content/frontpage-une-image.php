@@ -11,7 +11,7 @@
 ?>
 
 <div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:30% auto">
-<a href="<?php the_permalink(); ?>"><?php the_title(); ?>
+<a href="<?php the_permalink(); ?>">
 	<figure class="wp-block-media-text__media">	
 		<?php
 			$image = get_field('mon_image');
@@ -20,12 +20,11 @@
 				echo wp_get_attachment_image( $image, $size );
 			}
 		?>
-		<figcaption>
-		</a>
-		</figcaption>
-    </figure>
+		<figcaption><?php the_title(); ?></figcaption>
+	</figure>
+	</a>
     <div class="wp-block-media-text__content">
-        <p style="background-color:#64adcc" class="has-background has-drop-cap has-small-font-size">
+        <p  class="has-background has-drop-cap has-small-font-size">
 
             <?php  echo get_the_excerpt();  ?>
         </p>

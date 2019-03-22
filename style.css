@@ -786,7 +786,7 @@ body.page .main-navigation {
 }
 
 .site-content {
-  background-color: #86e0e0;
+  background-color: #84c0c0;
 }
 
 .site-header {
@@ -802,7 +802,15 @@ body.page .main-navigation {
 }
 
 img.attachment-thumbnail.size-thumbnail {
-  border: 5px solid #1a00aa;
+  border: 5px solid #0091aa;
+}
+
+p.has-background.has-drop-cap.has-small-font-size {
+  background-color: #b2ddeb;
+}
+
+div.wp-block-media-text.wp-block-media-text__content {
+  padding: 0;
 }
 
 @-webkit-keyframes anim1 {

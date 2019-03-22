@@ -3,7 +3,7 @@
 }
 
 .site-content{
-    background-color: rgb(134, 224, 224)
+    background-color: rgb(132, 192, 192)
 }
 
 .site-header{
@@ -21,5 +21,13 @@
 
 
 img.attachment-thumbnail.size-thumbnail{
-    border: 5px solid rgb(26, 0, 170);
+    border: 5px solid rgb(0, 145, 170);
+}
+
+p.has-background.has-drop-cap.has-small-font-size{
+    background-color: rgb(178, 221, 235);
+}
+
+div.wp-block-media-text.wp-block-media-text__content{
+    padding:0;
 }
