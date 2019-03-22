@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin : 0;
 
 
 /* enfant */
@@ -18,6 +19,9 @@
         width : 5em;
        // background-color: #ddd;
         padding: 4px;
+        width : 100%;
+
+ 
         
     }
  .site-branding .site-description
@@ -78,7 +82,7 @@
            }
 
            .site-branding .site-description {
-               font-size: 4vw; 
+               font-size: 3vw; 
            }
 
    }
